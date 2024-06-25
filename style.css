@@ -14,8 +14,8 @@ section{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background: url(bc.png) no-repeat;
-  background-size: cover;
+  background: url(bg.png) no-repeat;
+  background-size: auto;
   background-position: center;
 }
 
@@ -78,6 +78,10 @@ header .navigation a:hover{
   margin-bottom: 30px;
 }
 
+.content .info h2:hover{
+  color: #000;
+}
+
 .content .info h2 span{
   color: #000;
   font-size: 50px;
@@ -90,9 +94,13 @@ header .navigation a:hover{
   margin-bottom: 40px;
 }
 
+.content .info p:hover{
+  color: #15be1d;
+}
+
 .content .info-btn{
   color: #000;
-  background: #1fe418;
+ 
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
@@ -104,7 +112,7 @@ header .navigation a:hover{
 }
 
 .content .info-btn:hover{
-  background: #fff;
+  background: #1fe418;
 }
 
 .media-icons{
